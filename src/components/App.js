@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <button id="btn1" onClick={handleClick}>
-      { isOff ? 'ON' : 'OFF' }
+      { isOff ? 'OFF' : 'ON' }
       </button>
       <br />
       <br />
